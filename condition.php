@@ -24,12 +24,12 @@ header("Location:signup.php?err12=1");
 <div class="container-fluid jumbotron bg-info ;">
 	<div class="row">
 		<div class="col-3">
-		<h1 style="color: white;margin-top: 20px;">Welcome </h1>
-    <h2 style="color: purple;margin-top: 20px;"><?php echo $_SESSION['name']; ?></h2>
+		<h1 style="color: white;margin-top: 20px;">Welcome, </h1>
+    <h2 style="color: white;margin-top: 20px;"><?php echo $_SESSION['name']; ?></h2>
 
 		</div>
 <div class="col-6">
-	 <p class="text" style="font-size: 30px; text-align: center; margin-top:40px;">Online Quiz</p>
+	 <p class="text" style="font-size: 70px; text-align: center; margin-top:40px;">Online Quiz</p>
 </div>
 <div class="col-3">
 	<form method="post" action="logout.php"> 
@@ -42,14 +42,14 @@ header("Location:signup.php?err12=1");
   <div class="card-deck">
     <div class="card btn-warning">
       <div class="card-body text-center">
-        <h1 class="card-text" style="color: black;text-align:left">Instruction for taking Online Exam</h1>
+        <h1 class="card-text" style="color: black;text-align:left">Instructions for taking Online Exam</h1>
         <h4 class="card-text" style="color: white;text-align:left;">1. This is a multiple choice Test and contains 10 question to be answered in 10 minutes.</h4>
-        <h4 class="card-text" style="color: white;text-align:left;">2. Each Question have 1 marks for right answer.</h4>
-        <h4 class="card-text" style="color: white;text-align:left;">3. Click the <b>Start Test</b> below to start</h4>
+        <h4 class="card-text" style="color: white;text-align:left;">2. Each Question has 1 marks for correct answer.</h4>
+        <h4 class="card-text" style="color: white;text-align:left;">3. Click on <b>Start Test</b> below to start</h4>
        
-       <h4 class="card-text" style="color: white;text-align:left;">4. A question and the possible answers choices appear</h4>
+       <h4 class="card-text" style="color: white;text-align:left;">4. A question and the possible answer choices appear</h4>
 
-       <h4 class="card-text" style="color: white;text-align:left;">5. you can submit before time. but after submit you cant join Test.</h4>
+       <h4 class="card-text" style="color: white;text-align:left;">5. You can submit before time but, after you submit you can't attempt again.</h4>
        <form method="post" action="test.php">
        <input  type="submit" class="btn btn-success" value="Start Test"></input>
    </form>

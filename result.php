@@ -191,8 +191,8 @@ $array=mysqli_fetch_array($x);
 </form>
 <h1 style="color:white;"> Result:</h1>
 <h4 style="color:white">Total Question: 10</h4>
-<h4 style="color:white">Write Question :<?php echo $right;?></h4>
-<h4 style="color:white">wrong Question :<?php echo "$wrong"?></h4>
+<h4 style="color:white">Right Question :<?php echo $right;?></h4>
+<h4 style="color:white">Wrong Question :<?php echo "$wrong"?></h4>
 <h4 style="color:white">Not attempted Question :<?php echo $notattempt;?></h4>
 	</div>
 <div class="col-4">
